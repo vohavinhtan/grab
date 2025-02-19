@@ -19,7 +19,7 @@ const buttonLinks = [
   {
     image: '/images/car.png',
     label: 'Ô tô',
-		link: '/transport',
+    link: '/transport',
   },
   {
     image: '/images/box.png',
@@ -154,22 +154,22 @@ export default function Home() {
   return (
     <div className="-mt-5">
       <div className="z-50 px-3">
-        <SearchInput handleSearch={() => {}} />
+        <SearchInput handleSearch={() => { }} />
       </div>
-      <div className="h-full overflow-y-auto p-2">
+      <div className="h-full overflow-y-auto p-2 pb-36">
         <div className="flex items-center justify-around">
           {buttonLinks.map((button, index) => {
             return (
               <ButtonHome
                 image={button.image}
                 label={button.label}
-								link={button?.link}
+                link={button?.link}
                 key={index}
               />
             );
           })}
         </div>
-        <div className="flex items-center gap-3 pt-4">
+        <div className="flex items-center gap-3 pt-4 ">
           <ButtonCredit />
           <ButtonCredit type="reward" />
         </div>
@@ -201,7 +201,7 @@ export default function Home() {
         <div>
           <DiscoverNowList />
         </div>
-        <div className="pt-8">
+        <div className="pt-8 ">
           <ProductListSwiper
             title={'Món ngon cho bạn'}
             products={products}
@@ -211,7 +211,7 @@ export default function Home() {
         <div>
           <BookNows />
         </div>
-        <div>
+        <div >
           <DiscountList />
         </div>
       </div>

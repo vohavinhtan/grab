@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import React from 'react'
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 type Props = {}
 const ButtonIcon = ({
     icon = "",
@@ -22,6 +23,7 @@ const ButtonIcon = ({
         </button>
     )
 }
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const SignIn = (props: Props) => {
     const router = useRouter();
     return (

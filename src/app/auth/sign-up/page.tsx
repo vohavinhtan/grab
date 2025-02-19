@@ -4,8 +4,10 @@ import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import React, { useState } from 'react'
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 type Props = {}
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const SignUp = (props: Props) => {
     const router = useRouter();
     const [value, setValue] = useState('');

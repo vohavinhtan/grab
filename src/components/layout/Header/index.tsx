@@ -1,8 +1,10 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import CarIcon from '@/assets/icons/CarIcon';
 import React from 'react';
 import { FaArrowCircleRight } from 'react-icons/fa';
 
-interface Props {}
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
+interface Props { }
 
 const Header = (props: Props) => {
   return (

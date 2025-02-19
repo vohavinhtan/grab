@@ -2,8 +2,10 @@
 import { useRouter } from 'next/navigation';
 import React from 'react';
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface Props {}
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const BottomBar = (props: Props) => {
   const router = useRouter();
   const handleNavigateAuth = (type: 'signUp' | 'signIn') => {
